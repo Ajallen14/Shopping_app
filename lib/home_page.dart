@@ -3,6 +3,13 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
+  final List<String> filters = const [
+    "All",
+    "Addidas",
+    "Nike",
+    "Bata"
+  ];
+
   @override
   Widget build(BuildContext context) {
     const border = OutlineInputBorder(
@@ -34,6 +41,10 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                 ),
+                ListView.builder(
+                  itemCount: 3,
+                  itemBuilder: (context, index) {},
+                )
               ],
             ),
           ],
