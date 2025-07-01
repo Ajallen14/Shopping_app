@@ -24,6 +24,10 @@ class MyApp extends StatelessWidget {
           hintStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
           prefixIconColor: Color.fromRGBO(78, 77, 77, 1),
         ),
+        textTheme: TextTheme(
+          titleMedium: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+          bodySmall: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+        ),
       ),
     );
   }
