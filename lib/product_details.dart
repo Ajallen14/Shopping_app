@@ -32,7 +32,7 @@ class _ProductDetailsState extends State<ProductDetails> {
             height: 250,
             width: double.infinity,
             decoration: BoxDecoration(
-              color: Color.fromRGBO(176, 206, 236, 1),
+              color: Color.fromRGBO(168, 241, 255, 1),
               borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
             ),
             child: Padding(
@@ -71,7 +71,9 @@ class _ProductDetailsState extends State<ProductDetails> {
                               backgroundColor: selectedSize == size
                                   ? Theme.of(context).colorScheme.primary
                                   : Color.fromRGBO(216, 248, 253, 1),
-                              side: BorderSide(color: Colors.black),
+                              side: BorderSide(
+                                color: Color.fromRGBO(216, 248, 253, 1),
+                              ),
                               shape: RoundedRectangleBorder(),
                             ),
                           ),

@@ -40,6 +40,6 @@ final cart = [
     'price': 420.69,
     'imageUrl': 'assets/images/Puma.png',
     'company': 'Nike',
-    'sizes': [8, 9, 10],
+    'sizes': 8,
   },
 ];

@@ -17,8 +17,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "Lato",
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromRGBO(254, 206, 1, 1),
-          primary: const Color.fromRGBO(254, 206, 1, 1),
+          seedColor: Color.fromRGBO(78, 215, 241, 1),
+          primary: Color.fromRGBO(78, 215, 241, 1),
+          secondary: Color.fromRGBO(255, 250, 141, 1),
         ),
         appBarTheme: AppBarTheme(
           titleTextStyle: TextStyle(fontSize: 20, color: Colors.black),
