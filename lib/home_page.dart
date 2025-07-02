@@ -53,6 +53,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
+
             //NEXT ROW
             SizedBox(
               height: 120,
@@ -92,7 +93,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
 
-            //ITEMS
+            //PRODUCT CARD
             Expanded(
               child: ListView.builder(
                 itemCount: products.length,

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/global_variable.dart';
 import 'package:shop_app/home_page.dart';
-import 'package:shop_app/product_details.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Shopping App",
-      home: ProductDetails(product: products[0]),
+      home: HomePage(),
       theme: ThemeData(
         fontFamily: "Lato",
         colorScheme: ColorScheme.fromSeed(
