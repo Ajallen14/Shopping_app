@@ -1,4 +1,4 @@
-# 🛒 Simple Shopping App
+# Simple Shopping App
 A basic shopping app built using Flutter. This app showcases products, lets users view product details, and manage a shopping cart using the Provider state management approach.
 
 # Features
@@ -56,5 +56,3 @@ A basic shopping app built using Flutter. This app showcases products, lets user
 
 
 # 📽️ Demo Video
-
-Share a quick demo link if you have one:
