@@ -58,7 +58,7 @@ class _ProductDetailsState extends State<ProductDetails> {
             height: 250,
             width: double.infinity,
             decoration: BoxDecoration(
-              color: const Color.fromRGBO(168, 241, 255, 1),
+              color: const Color.fromRGBO(98, 148, 132, 1),
               borderRadius: const BorderRadius.vertical(
                 top: Radius.circular(20),
               ),
@@ -92,8 +92,8 @@ class _ProductDetailsState extends State<ProductDetails> {
                             child: Chip(
                               label: Text(size.toString()),
                               backgroundColor: selectedSize == size
-                                  ? Theme.of(context).colorScheme.primary
-                                  : const Color.fromRGBO(216, 248, 253, 1),
+                                  ? Color.fromRGBO(226, 241, 231, 1)
+                                  : Color.fromRGBO(167, 212, 182, 1),
                             ),
                           ),
                         );

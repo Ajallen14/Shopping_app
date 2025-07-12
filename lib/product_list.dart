@@ -75,8 +75,8 @@ class _ProductListState extends State<ProductList> {
                         fontWeight: FontWeight.bold,
                       ),
                       backgroundColor: selectedFilter == filter
-                          ? Theme.of(context).colorScheme.primary
-                          : Color.fromRGBO(255, 250, 141, 1),
+                          ? Color.fromRGBO(226, 241, 231, 1)
+                          : Color.fromRGBO(98, 149, 132, 1),
                       label: Text(filter),
                       padding: EdgeInsets.all(15),
                       side: BorderSide(color: Color.fromRGBO(245, 247, 249, 1)),
@@ -111,8 +111,8 @@ class _ProductListState extends State<ProductList> {
                     price: product['price'] as double,
                     image: product['imageUrl'] as String,
                     backgroundColor: index.isEven
-                        ? Color.fromRGBO(111, 230, 252, 1)
-                        : Color.fromRGBO(255, 250, 141, 1),
+                        ? Color.fromRGBO(56, 116, 120, 1)
+                        : Color.fromRGBO(98, 149, 132, 1),
                   ),
                 );
               },
